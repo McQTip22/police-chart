@@ -1,0 +1,14 @@
+{
+  "name": "police-brutality",
+  "version": "1.0.0",
+  "description": "A visual display of police using unnecessary force on protesters during the first week of the George Floyd protests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian McEwen (brian.t.mcewen@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

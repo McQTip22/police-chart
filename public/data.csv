@@ -1,0 +1,443 @@
+TGD Number,City,State
+1,Houston,TX
+2,NYC,NY
+3,NYC,NY
+4,NYC,NY
+5,Las Vegas,NV
+6,Fort Wayne,IN
+7,Minneapolis,MN
+8,Minneapolis,MN
+9,Minneapolis,MN
+10,Minneapolis,MN
+11,Denver,CO
+12,Louisville,KY
+13,Denver,CO
+14,Lincoln,NE
+15,Atlanta,GA
+16,Minneapolis,MN
+17,Atlanta,GA
+18,Columbus,OH
+19,Detroit,MI
+20,New York City,NY
+21,Harrisburg,PA
+22,San Jose,CA
+23,Columbus,OH
+24,Salt Lake City,UT
+25,New York City,NY
+26,Minneapolis,MN
+27,Raleigh,NC
+28,Raleigh,NC
+29,Minneapolis,MN
+30,Minneapolis,MN
+31,Philadelphia,PA
+32,Seattle,WA
+33,Denver,CO
+34,Los Angeles,CA
+35,Columbus,OH
+36,New York City,NY
+37,New York City,NY
+38,Chicago,IL
+39,Chicago,IL
+40,Dallas,TX
+41,Seattle,WA
+42,Minneapolis,MN
+43,Detroit,MI
+44,Cleveland,OH
+45,Erie,PA
+46,Minneapolis,MN
+47,Minneapolis,MN
+48,New York City,NY
+49,New York City,NY
+50,Columbus,OH
+51,New York City,NY
+52,Sacramento,CA
+53,Louisville,KY
+54,Atlanta,GA
+55,San Antonio,TX
+56,Denver,CO
+57,Manassas,VA
+58,Fort Wayne,IN
+59,Denver,CO
+60,Richmond,VA
+61,Austin,TX
+62,Charleston,SC
+63,San Diego,CA
+64,Minneapolis,MN
+65,La Mesa,CA
+66,Las Vegas,NV
+67,Cincinnati,OH
+68,Fort Lauderdale,FL
+69,Long Beach,CA
+70,Los Angeles,CA
+71,New York City,NY
+72,Grand Rapids,MI
+73,Grand Rapids,MI
+74,Minneapolis,MN
+75,Murfreesboro,TN
+76,Raleigh,NC
+77,Fredericksburg,VA
+78,Charleston,SC
+79,Minneapolis,MN
+80,Kansas City,MO
+81,El Paso,TX
+82,New York City,NY
+83,Boston,MA
+84,San Francisco,CA
+85,Jacksonville,FL
+86,Richmond,VA
+87,Los Angeles,CA
+88,Seattle,WA
+89,Seattle,WA
+90,Seattle,WA
+91,Seattle,WA
+92,Richmond,VA
+93,Richmond,VA
+94,Columbus,OH
+95,Columbus,OH
+96,Detroit,MI
+97,Fort Lauderdale,FL
+98,Louisville,KY
+99,Miami,FL
+100,Washington,DC
+101,Seattle,WA
+102,Raleigh,NC
+103,Boston,MA
+104,Dallas,TX
+105,Los Angeles,CA
+106,Austin,TX
+107,Los Angeles,CA
+108,Long Beach,CA
+110,Columbus,OH
+111,Indianapolis,IN
+112,Des Moines,IA
+113,Philadelphia,PA
+114,Chicago,IL
+115,Denver,CO
+116,Philadelphia,PA
+117,Denver,CO
+118,Los Angeles,CA
+119,Los Angeles,CA
+120,Washington,DC
+121,Atlanta,GA
+122,Richmond,VA
+123,Los Angeles,CA
+124,Philadelphia,PA
+125,Richmond,VA
+126,Little Rock,AK
+127,Richmond,VA
+128,Washington,DC
+129,Atlanta,GA
+130,Omaha,NE
+131,Pittsburgh,PA
+132,Buffalo,NY
+133,Los Angeles,CA
+134,Washington,DC
+135,Sacramento,CA
+136,Washington,DC
+137,Riverside,CA
+138,Seattle,WA
+139,Elizabethtown,NC
+140,Seattle,WA
+141,Atlanta,GA
+142,West Philadelphia,PA
+143,Joliet,IL
+144,Washington,DC
+145,Columbus,OH
+146,Richmond,VA
+147,Denver,CO
+148,Los Angeles,CA
+149,Des Moines,IA
+150,Philadelphia,PA
+151,Hollywood,CA
+152,New York City,NY
+153,Los Angeles,CA
+154,San Luis Obispo,CA
+155,El Centro,CA
+156,Washington,DC
+157,Denver,CO
+158,Portland,ME
+159,Hoover,AL
+160,Athens,GA
+161,Athens,GA
+162,Walnut Creek,CA
+163,Asheville,NC
+164,New York City,NY
+165,Seattle,WA
+166,San Diego,CA
+167,Orlando,FL
+168,Charlotte,NC
+169,Orlando,FL
+170,Orlando,FL
+171,San Diego,CA
+172,Richmond,VA
+173,San Antonio,TX
+174,Dallas,TX
+175,Austin,TX
+176,Seattle,WA
+177,Los Angeles,CA
+178,Los Angeles,CA
+179,Washington,DC
+180,Wilmington,NC
+181,Los Angeles,CA
+182,Los Angeles,CA
+183,Portland,OR
+184,Los Angeles,CA
+185,Washington,DC
+186,New York City,NY
+187,Portland,OR
+188,Portland,OR
+189,San Jose,CA
+190,Seattle,WA
+191,Walnut Creek,CA
+192,Philadelphia,PA
+193,Nationwide,
+194,Cincinatti,OH
+195,Boston,MA
+196,New York City,NY
+197,San Diego,CA
+198,Columbus,OH
+199,Kalamazoo,MI
+200,Des Moines,IA
+201,New York City,NY
+202,Cincinatti,OH
+203,Huntington Beach,CA
+204,Washington,DC
+205,New York City,NY
+206,Clayton,CA
+207,Oakdale,CA
+208,Portland,OR
+209,Prince George County,MD
+210,Baytown,TX
+211,Chicago,IL
+212,Dallas,TX
+213,Salt Lake City,UT
+214,Los Angeles,CA
+215,Sacramento,CA
+216,New York City,NY
+217,Washington,DC
+218,Louisville,KY
+219,Washington,DC
+220,Seattle,WA
+221,Raleigh,NC
+222,Bentonville,AR
+223,Washington,DC
+224,Colorado Springs,CO
+225,Los Angeles,CA
+226,New York City,NY
+227,Orlando,FL
+228,Houston,TX
+229,New York City,NY
+230,New York City,NY
+232,Huntsville,AL
+233,Huntsville,AL
+234,Fredricksburg,VA
+235,New York City,NY
+236,Fargo,ND
+237,Huntsville,AL
+238,Orlando,FL
+239,Montreal,Quebec Canada
+240,Indianapolis,IN
+241,Austin,TX
+242,New York City,NY
+243,Portland,OR
+244,Orlando,FL
+245,New Orleans,LA
+246,Huntsville,AL
+247,Iowa City,IA
+248,Costa Mesa,CA
+249,Lansing,MI
+250,Minneapolis,MN
+251,St. Johnsbury,VT
+252,Kansas City,MO
+253,Denver,CO
+254,Las Vegas,NV
+255,Merrick,NY
+256,Minneapolis,MN
+257,Los Angeles,CA
+258,San Jose,CA
+259,Fargo,ND
+260,Phoenix,AZ
+261,Pittsburgh,PA
+262,New York City,NY
+263,New York City,NY
+264,Streamwood,IL
+265,Washington,DC
+266,New York City,NY
+267,Sacramento,CA
+268,New York City,NY
+269,:as Vegas,NV
+270,Washington,DC
+271,Orlando,FL
+272,Los Angeles,CA
+273,Dallas,TX
+274,Colorado SPrings,CO
+275,Omaha,NE
+276,Tampa,FL
+277,Portland,OR
+278,Tampa,FL
+279,Merrick,NY
+280,Dallas,TX
+281,New York City,NY
+282,Buffalo,NY
+283,New York City,NY
+284,New York City,NY
+285,New York City,NY
+286,New York City,NY
+287,Nashville,TN
+288,Seattle,WA
+289,Austin,TX
+290,Oakland,CA
+291,Tampa,FL
+292,Tampa,FL
+293,Tampa,FL
+294,Philadelphia,PA
+295,New York City,NY
+296,New York City,NY
+297,Savannah,VA
+298,New York City,NY
+299,New York City,NY
+300,Lincoln,NE
+301,Whitefish,MT
+302,Salem,OR
+303,Los Angeles,CA
+304,New York City,NY
+305,Washington,DC
+306,Des Moines,IA
+307,New York City,NY
+308,Los Angeles,CA
+309,Bethesda,MD
+310,Raleigh,NC
+311,San Diego,CA
+312,Minneapolis,MN
+313,Orlando,FL
+314,Des Moines,IA
+315,Eloy,AZ
+316,Durham,NC
+317,Chicago,IL
+318,Peoria,IL
+319,Portland,OR
+320,New York City,NY
+321,Chicago,IL
+322,Atlanta,GA
+323,Lakewood,CA
+324,Los Angeles,CA
+325,New York City,NY
+326,New York City,NY
+327,New York City,NY
+328,Columbus,OH
+329,Columbus,OH
+330,Columbus,OH
+331,Detroit,MI
+332,Denver,CO
+333,Washington,DC
+334,Philadelphia,PA
+335,San Jose,CA
+336,New York City,NY
+337,Valdosta,GA
+338,Valdosta,GA
+339,Philadelphia,PA
+340,Portland,OR
+341,Washington,DC
+342,Providence,RI
+343,New York City,NY
+344,Seattle,WA
+345,Portland,OR
+346,Portland,OR
+347,Tulsa,OK
+348,Lincoln,NE
+349,Temecula,CA
+350,Pittsburgh,PA
+351,Delaware County,PA
+352,Bakersfield,CA
+353,Seattle,WA
+354,Philadelphia,PA
+355,Seattle,WA
+356,Olympia,WA
+357,London,UK
+358,Oklahoma City,OK
+359,Merrick,NY
+360,Seattle,WA
+361,Buffalo,NY
+362,Seattle,WA
+363,Seattle,WA
+364,Seattle,WA
+365,Seattle,WA
+366,Denver,CO
+367,Portland,OR
+368,Austin,TX
+369,Richmond,VA
+370,Florrisant,MO
+371,Austin,TX
+372,Columbus,OH
+374,Portland,OR
+375,Seattle,WA
+376,Portland,OR
+377,Portland,OR
+378,Portland,OR
+379,Columbus,OH
+380,Los Angeles,CA
+381,Minneapolis,MN
+382,Portland,OR
+383,Columbus,OH
+384,Seattle,WA
+385,Lakewood,NJ
+386,New York City,NY
+387,Minneapolis,MN
+388,Oklahoma City,OK
+389,Oklahoma City,OK
+390,Oklahoma City,OK
+391,Oklahoma City,OK
+392,Oklahoma City,OK
+393,Minneapolis,MN
+394,New York City,NY
+395,Seattle,WA
+396,Denver,CO
+397,Augusta,ME
+398,New York City,NY
+399,Hoover,AL
+400,San Jose,CA
+401,San Jose,CA
+402,Denver,CO
+403,Denver,CO
+404,Denver,CO
+405,Seattle,WA
+406,New York City,NY
+407,Seattle,WA
+408,Portland,OR
+409,New York City,NY
+410,Dallas,TX
+411,Akron,OH
+412,Orlando,FL
+413,Portland,OR
+414,Canton,OH
+415,Kansas City,MO
+416,Los Angeles,CA
+417,Washington,DC
+418,Seattle,WA
+419,Portland,OR
+420,Seattle,WA
+421,New York City,NY
+422,Minneapolis,MN
+423,Denver,CO
+424,Seattle,WA
+425,Seattle,WA
+426,Columbus,OH
+427,Pittsburgh,PA
+429,Seattle,WA
+430,Seattle,WA
+431,Charlotte,NC
+432,Houston,TX
+433,New York City,NY
+434,Portland,ME
+435,Asheville,NC
+436,Beavercreek,OH
+437,Buffalo,NY
+438,Fort Lauderdale,FL
+439,Ashbury Park,NJ
+440,Atlanta,GA
+441,Oakland,CA
+442,Tampa,FL
+443,Camden,DE
+444,Providence,RI
+445,Cleveland,OH
+446,Cinciatti,OH
