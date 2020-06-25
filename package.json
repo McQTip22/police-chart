@@ -10,6 +10,7 @@
   "author": "Brian McEwen (brian.t.mcewen@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "emmet": "^2.1.1",
     "express": "^4.17.1"
   }
 }
