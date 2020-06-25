@@ -4,6 +4,7 @@
   "description": "A visual display of police using unnecessary force on protesters during the first week of the George Floyd protests.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian McEwen (brian.t.mcewen@gmail.com)",
