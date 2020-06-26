@@ -10,9 +10,8 @@ function getTally(copy){
     for ( let city of copy) {
       let last = cityTally[cityTally.length-1];
       copy = (last && last.city === city.city) ? last.tally++ : cityTally.push({ city: `${city.city}`, tally: 1 });
-      console.log(cityTally);   
     }
-  
+  console.log(cityTally);
   }
 
 // get data from csv
