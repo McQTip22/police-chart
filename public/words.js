@@ -1,17 +1,17 @@
 
 function getTally(copy){
   //define the new array of tallied cities
-  let cityTally = []
+  var cityCount = []
     // sort data city
     copy.sort((a, b) => {
       return a.city > b.city ? 1 : -1;
     });
     // loop through cities and tally
     for ( let city of copy) {
-      let last = cityTally[cityTally.length-1];
-      copy = (last && last.city === city.city) ? last.tally++ : cityTally.push({ city: `${city.city}`, tally: 1 });
+      let last = cityCount[cityCount.length-1];
+      copy = (last && last.city === city.city) ? last.count++ : cityCount.push({ city: `${city.city}`, count: 1 });
     }
-  console.log(cityTally);
+    d3.select('body').selectAll('h2').data(cityCount).enter().append('h2').text((d) => d.city + '   =>   ' + d.count);
   }
 
 // get data from csv
@@ -28,7 +28,8 @@ d3
 	.then(function(data) {   
     const copy = [...data]
 		getTally(copy);
-		d3.select('body').selectAll('h2').data(data).enter().append('h2').text((d) => d.city);
+    
+		
 	});
 
 //create svg
