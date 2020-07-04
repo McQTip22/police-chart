@@ -8,7 +8,7 @@ function getTally(copy) {
 	// loop through cities and tally
 	for (let city of copy) {
 		let last = cityCount[cityCount.length - 1];
-		copy = last && last.city === city.city ? last.count++ : cityCount.push({ city: `${city.city}`, count: 1 });
+    copy = last && last.city === city.city ? last.count++ & last.size++ : cityCount.push({ city: `${city.city}`, count: 1, size: 10 })
 	}
 	//set dimensions
 	let w = 1000;
@@ -17,16 +17,18 @@ function getTally(copy) {
 	//attach svg
 	let svg = d3.select('.words').append('svg').attr('width', w).attr('height', h);
 
+  //create layout for word cloud
 	var layout = d3.layout
 		.cloud()
 		.size([ w, h ])
 		.words(
 			cityCount.map(function(d) {
-				return { text: d.city };
+				return { text: d.city, size: d.size };
 			})
 		)
 		.padding(5)
-		.fontSize(20)
+    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+		.fontSize(function(d) { return d.size; })
 		.on('end', draw);
 	layout.start();
 
@@ -38,10 +40,10 @@ function getTally(copy) {
 			.data(words)
 			.enter()
 			.append('text')
-			.style('font-size', function(d) {
-				return d.size + 'px';
-			})
+			.style("font-size", function(d) { return d.size; })
+      .style('fill', '#173977')
 			.attr('text-anchor', 'middle')
+      .style('font-family', 'Impact')
 			.attr('transform', function(d) {
 				return 'translate(' + [ d.x, d.y ] + ')rotate(' + d.rotate + ')';
 			})

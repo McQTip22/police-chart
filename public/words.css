@@ -2,6 +2,11 @@ body {
 	background-color: #333f50;
 }
 
+h2 {
+	text-align: center;
+	color: lightgray;
+}
+
 .container {
 	display: flex;
 	justify-content: center;
