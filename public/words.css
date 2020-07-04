@@ -1,11 +1,11 @@
 body {
-	background-color: #333f50;
+	background-color: white;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	color: #173977;
+	text-align: center;
 }
 
-h2 {
-	text-align: center;
-	color: lightgray;
-}
+
 
 .container {
 	display: flex;
@@ -14,29 +14,10 @@ h2 {
 	margin-top: 3rem;
 }
 
-.bar:hover {
-	fill: #0243617a;
-}
 
-.bar {
-	fill: #173977;
-}
 
-svg {
-	background-color: white;
-	box-shadow: inset 0 0 10px #333f50;
-}
 
-.chart {
-	font-size: 30px;
-	font-weight: bold;
-}
 
-.d3-tip {
-	line-height: 1;
-	font-weight: bold;
-	padding: 12px;
-	background: rgba(0, 0, 0, 0.8);
-	color: #fff;
-	border-radius: 2px;
-}
+
+
+

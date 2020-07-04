@@ -5,10 +5,10 @@ function getTally(copy) {
 	copy.sort((a, b) => {
 		return a.city > b.city ? 1 : -1;
 	});
-	// loop through cities and tally
+	// loop through cities, tally and set size
 	for (let city of copy) {
 		let last = cityCount[cityCount.length - 1];
-    copy = last && last.city === city.city ? last.count++ & last.size++ : cityCount.push({ city: `${city.city}`, count: 1, size: 10 })
+    copy = last && last.city === city.city ? last.count++ & last.size++ : cityCount.push({ city: `${city.city}`, count: 1, size: 12 })
 	}
 	//set dimensions
 	let w = 1000;
@@ -27,11 +27,12 @@ function getTally(copy) {
 			})
 		)
 		.padding(5)
-    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+    .rotate(function() { return ~~(Math.random() * 8) * 45; })
 		.fontSize(function(d) { return d.size; })
 		.on('end', draw);
 	layout.start();
 
+  //create svg using above layout
 	function draw(words) {
 		svg
 			.append('g')
@@ -43,7 +44,7 @@ function getTally(copy) {
 			.style("font-size", function(d) { return d.size; })
       .style('fill', '#173977')
 			.attr('text-anchor', 'middle')
-      .style('font-family', 'Impact')
+      .style('font-family', 'Fira Sans Condensed')
 			.attr('transform', function(d) {
 				return 'translate(' + [ d.x, d.y ] + ')rotate(' + d.rotate + ')';
 			})
@@ -60,11 +61,11 @@ d3
 			city: `${d.City}, ${d.State}`
 		};
 	})
-	//clone data so I am not messing with source
-
+  
+  //clone data so I am not messing with source
 	.then(function(data) {
 		const copy = [ ...data ];
 		getTally(copy);
 	});
 
-//create svg
+
